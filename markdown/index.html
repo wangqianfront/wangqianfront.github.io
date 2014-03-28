@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Markdown Editor</title>
+	<meta charset="utf-8">
+    <style>
+      html,body{margin:0;padding:0;font-family:helvetica,arial,sans-serif;line-height:1.4em; }
+      #md,#footer,#header { width: 900px; margin:10px auto;  }
+      #md {height: 600px;}
+    </style>
+  </head>
+  <body>
+    <div id="header"><h2>Markdown Editor</h2></div>
+    <div id="md"></div>
+    <div id="footer">
+        <p>
+            Copyright &copy; 2010 - <script>document.write(new Date().getFullYear());</script> <a href="http://madscript.com/about">Yuanyan.</a> All Rights Reserved.
+        </p>
+
+    </div>
+    <script src="epiceditor.js"></script>
+    <script>
+      
+      try{
+        hljs.initHighlightingOnLoad(); 
+      } catch(e){
+        document.body.className += " " + 'offline-mode';
+        console.log('Code highlighting will be disabled because yandex.st isn\'t loading or there is an error in the linked script.')
+      }
+
+
+      var md = new EpicEditor(document.getElementById('md'));
+      md.options({
+        file:{
+          defaultContent:"#Title\n"
+        },
+		focusOnLoad:true,
+		themes:{
+		  editor:'/themes/editor/epic-light.css',
+		  preview:'/themes/preview/github.css'
+		},
+
+		shortcuts: {
+			preview: 80 //alt + p
+		}
+      })
+      .load();
+    </script>
+  </body>
+</html>
