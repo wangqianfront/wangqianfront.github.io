@@ -8,10 +8,10 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 王前の笔记 - Wang Qian's Note
+title : Wang Qian's Note
 tagline: 
 author :
-  name : 王前
+  name : 
   email : wangqianfront@gmail.com
   github : wangqianfront
   twitter : wangqianfront
@@ -115,7 +115,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : true
+    provider : false
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
