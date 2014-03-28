@@ -1,31 +1,15 @@
----
+﻿---
 layout: page
-title:  main.js
-header:  Cease to struggle and you cease to live.
-tagline: Thomas Carlyle
+title:  王前のTech Note
+header:  Popular Tech Blog - 流行技术博客.
+tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
 <h2> Posts </h2>
-<ol id="posts">
+
+<ul class="posts">
   {% for post in site.posts %}
-    <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
-</ol>
-
-<h2> Projects  </h2>
-<ol id="pages">
-   <li><a href="http://madscript.com/modjs" target="_blank">http://madscript.com/modjs</a>     腾讯Web前端构建工具 Mod.js</li>
-   <li><a href="http://github.com/modulejs/ming" target="_blank">http://github.com/modulejs/ming/</a>     基于jQuery的Javascript工程方案 Ming</li>
-   <li><a href="https://github.com/modulejs/pragmatic-jquery" target="_blank">https://github.com/modulejs/pragmatic-jquery</a>     jQuery编程实践</li>
-   <li><a href="http://madscript.com/fanta/" target="_blank">http://madscript.com/fanta/</a>     函数式编程库Fanta</li>
-   <li><a href="http://madscript.com/pre/" target="_blank">http://madscript.com/pre/</a>     LESS编程库Pre</li>
-   <li><a href="https://github.com/yuanyan/kownyourchrome" target="_blank">https://github.com/yuanyan/kownyourchrome</a>    Know your chrome</li>
-   <li><a href="http://madscript.com/demo/" target="_blank">http://madscript.com/demo/</a>     DEMO集合</li>
-</ol>
-
-<h2> Groups </h2>
-<ol id="group">
-    <li><a target="_blank" href="http://wp.qq.com/wpa/qunwpa?idkey=be8729234cd86828225c24089fd3164418cb7b1c9965dd5b6a6ce32d916df45a">TAB前端社区技术群（71287667）</a></li>
-    <li><a target="_blank" href="http://wp.qq.com/wpa/qunwpa?idkey=00af0a275052b60118b89380f0429dd8354ee8edf4eda87c4d1efc07bacadc8d">jQuery小组（289788813）</a></li>
-</ol>
+</ul>
