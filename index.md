@@ -1,6 +1,6 @@
-﻿---
+---
 layout: page
-title: 王前の笔记 - Wang Qian's Note
+title: Hello World!
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
@@ -16,10 +16,10 @@ In `_config.yml` remember to specify your own data:
     title : My Blog =)
     
     author :
-      name : 王前
-      email : wangqianfront@gmail.com
-      github : wangqianfront
-      twitter : wangqianfront
+      name : Name Lastname
+      email : blah@email.test
+      github : username
+      twitter : username
 
 The theme should reference these variables whenever needed.
     
@@ -40,5 +40,7 @@ Here's a sample "posts list".
 
 ## To-Do
 
+This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
+We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
