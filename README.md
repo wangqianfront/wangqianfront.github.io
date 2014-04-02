@@ -1,4 +1,4 @@
-##  作者by@wangqianfront
+##  作者author @wangqianfront
 
 ### [主页](http://wangqianfront.github.com)
 
