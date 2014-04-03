@@ -1,6 +1,6 @@
 ﻿# This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
@@ -8,14 +8,14 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 王前のTech Note
+title : 王前の笔记
 tagline: 
 author :
   name : 王前同學
   email : wangqianfront@gmail.com
   github : wangqianfront
   twitter : wangqianfront
-  feedburner : feedname
+  feedburner : frontwang
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : frontwang
     livefyre :
       site_id : 123
     intensedebate :
@@ -115,7 +115,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : true
+    provider : false
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
