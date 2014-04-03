@@ -18,7 +18,7 @@ body {
     -ms-transform: scale(0.93);
     transform: scale(0.93);
     opacity: 0.8;
-    box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #0B5A25, 0 0 0 10px rgba(255,255,255,0.5);
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #F2F2F2, 0 0 0 10px rgba(255,255,255,0.5);
 
     -webkit-transition: -webkit-transform ease-out 0.1s, opacity 0.2s, box-shadow 0.5s ease-out 75ms;
     -moz-transition: -moz-transform ease-out 0.1s,opacity 0.2s, box-shadow 0.5s ease-out 75ms;
