@@ -56,21 +56,12 @@ section {
     padding-left: 20px;
     padding-right: 20px;
     background-color: -moz-linear-gradient(90deg, #1AB4D0, #29CBD8) repeat scroll 0 0 rgba(0, 0, 0, 0);
-    background-image: -moz-linear-gradient(top, rgba(51,51,51,0.6), rgba(37,37,37,0.6));
-    background-image: -ms-linear-gradient(top, rgba(51,51,51,0.6), rgba(37,37,37,0.6));
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(51,51,51,0.6)), to(rgba(37,37,37,0.6)));
-    background-image: -webkit-linear-gradient(top, rgba(51,51,51,0.6), rgba(37,37,37,0.6));
-    background-image: -o-linear-gradient(top, rgba(51,51,51,0.6), rgba(37,37,37,0.6));
-    background-image: linear-gradient(top, rgba(51,51,51,0.6), rgba(37,37,37,0.6));
     background-repeat: repeat-x;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#99000000', endColorstr = '#99000000');
     border-radius: 0;
     border: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
