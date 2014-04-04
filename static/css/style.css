@@ -7,8 +7,9 @@ html,body{
 
 body {
     position: relative;
-    background-color: #EEEEEE;
+    background-color: #F2F4F7;
     overflow-x: hidden;
+    /*background: #F6F6F1 url("http://madscript.com/static/images/bg.png") center 40px repeat;*/
 }
 
 .img-circle:hover {
@@ -17,6 +18,8 @@ body {
     -ms-transform: scale(0.93);
     transform: scale(0.93);
     opacity: 0.8;
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.1), 0 0 10px 10px #F2F4F7, 0 0 0 10px rgba(255,255,255,0.5);
+
     -webkit-transition: -webkit-transform ease-out 0.1s, opacity 0.2s, box-shadow 0.5s ease-out 75ms;
     -moz-transition: -moz-transform ease-out 0.1s,opacity 0.2s, box-shadow 0.5s ease-out 75ms;
     transition: transform ease-out 0.1s, opacity 0.2s, box-shadow 0.5s ease-out 75ms;
@@ -24,6 +27,7 @@ body {
 
 body > .navbar {
     font-size: 14px;
+	font-weight: bold;
 }
 
 /* Change the docs' brand */
@@ -32,9 +36,7 @@ body > .navbar .brand {
     padding-left: 0;
     margin-left: 20px;
     float: right;
-    font-weight: bold;
-    color: #fff;
-    font-weight: bold;
+    color: #000;
     text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
     -webkit-transition: all .2s linear;
     -moz-transition: all .2s linear;
@@ -42,7 +44,7 @@ body > .navbar .brand {
 }
 body > .navbar .brand:hover {
     text-decoration: none;
-    text-shadow: 0 1px 0 rgba(0,0,0,.1), 0 0 30px rgba(0,0,0,.4);
+    text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.4);
 }
 
 
@@ -54,22 +56,31 @@ section {
     padding-left: 20px;
     padding-right: 20px;
     background-color: #53C6AA;
-    background: none repeat scroll 0 0 rgba(83, 198, 170, 0.8);
+    background: none repeat scroll 0 0 rgba(83,198,170,0.9);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#9953C6AA', endColorstr = '#9953C6AA');
     border-radius: 0;
     border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-    color: #fff;
+    color: white;
+    color: rgba(0, 0, 0, 0.8);
     background-color: transparent;
 }
 
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
-    color: #fff;
+    color: white;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar .nav > li > a {
-    
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
 }
 
 .container > footer {
@@ -147,11 +158,6 @@ section {
     background: #57A957;
     border: 1px solid #4C964D;
     color: #FFF;
-}
-
-footer {
-    background-color: #53C6AA;
-    background: none repeat scroll 0 0 rgba(83, 198, 170, 0.8);	
 }
 
 footer p {
