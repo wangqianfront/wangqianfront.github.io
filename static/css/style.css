@@ -70,13 +70,11 @@ section {
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
     color: white;
-    color: rgba(0, 0, 0, 0.8);
     background-color: transparent;
 }
 
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
     color: white;
-    color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar .nav > li > a {
