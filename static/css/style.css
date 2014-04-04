@@ -72,12 +72,11 @@ section {
 }
 
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
-    color: white;
-    color: rgba(255, 255, 255, 0.8);
+    color: #059271;
 }
 
 .navbar .nav > li > a {
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+    
 }
 
 .container > footer {
@@ -92,7 +91,7 @@ section {
 .content {
     background-color: #fff;
     background-color: rgba(255,255,255,0.9);
-    padding: 20px;
+    padding: 50px;
     margin: 40px -20px 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
     -webkit-border-radius: 0 0 6px 6px;
     -moz-border-radius: 0 0 6px 6px;
