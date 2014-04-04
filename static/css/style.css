@@ -25,7 +25,8 @@ body {
 }
 
 body > .navbar {
-    font-size: 13px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 /* Change the docs' brand */
@@ -85,7 +86,7 @@ section {
     background-color: #fff;
     background-color: rgba(255,255,255,0.9);
     padding: 20px;
-    margin: 40px -20px 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+    margin: 70px -20px 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
     -webkit-border-radius: 0 0 6px 6px;
     -moz-border-radius: 0 0 6px 6px;
     border-radius: 0 0 6px 6px;
