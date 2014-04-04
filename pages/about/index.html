@@ -1,7 +1,11 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>about @yuanyan</title>
+---
+layout: page
+title: "关于我"
+description: "关于我 about @wangqianfront"
+---
+{% include JB/setup %}
+
+
 <style>
 a,a * {
 	color: #333;
@@ -98,10 +102,10 @@ body {
 <div id="container">
 <div id="links">
 	<ul>
-	<li><h2><span id="email"></span> <a>Yuanyan.cao(at)gmail.com</a></h2></li>
-	<li><h2><span id="twitter"></span> <a href="http://twitter.com/caoyuanyan">Twitter</a></h2></li>
-	<li><h2><span id="weibo"></span> <a href="http://weibo.com/caoyuanyan">Weibo</a></h2></li>
-	<li><h2><span id="github"></span> <a href="http://github.com/yuanyan">Github</a></h2></li>
+	<li><h2><span id="email"></span> <a>wangqianfront@gmail.com</a></h2></li>
+	<li><h2><span id="twitter"></span> <a href="http://twitter.com/wangqianfront">Twitter</a></h2></li>
+	<li><h2><span id="weibo"></span> <a href="http://weibo.com/qain1989">Weibo</a></h2></li>
+	<li><h2><span id="github"></span> <a href="http://github.com/wangqianfront">Github</a></h2></li>
 	</ul>
 </div>
 
@@ -148,7 +152,7 @@ window.onload=function(){
 
 	var r = Raphael("title", 400, 100);
 
-	var title = r.print(10, 50, "yuanyan", r.getFont("Museo"), 40).attr({fill: "#fff"});
+	var title = r.print(10, 50, "wangqianfront", r.getFont("Museo"), 40).attr({fill: "#fff"});
 	
 	for(var i=0; i<6;i++){
 		title[i].animate({fill: Raphael.getColor()}, 2000);
@@ -174,5 +178,3 @@ window.onload=function(){
 		
 }		
 </script>
-</body>
-</html>

@@ -9,7 +9,7 @@ body {
     position: relative;
     background-color: #F2F4F7;
     overflow-x: hidden;
-    /*background: #F6F6F1 url("http://madscript.com/static/images/bg.png") center 40px repeat;*/
+    /*background: #F6F6F1 url("http://wangqianfront.github.io/static/images/bg.png") center 40px repeat;*/
 }
 
 .img-circle:hover {
@@ -94,7 +94,7 @@ section {
     background-color: #fff;
     background-color: rgba(255,255,255,0.9);
     padding: 20px;
-    margin: 70px -20px 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+    margin: 40px -20px 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
     -webkit-border-radius: 0 0 6px 6px;
     -moz-border-radius: 0 0 6px 6px;
     border-radius: 0 0 6px 6px;
@@ -115,6 +115,7 @@ section {
 .page-header {
     border-bottom: 1px solid rgba(238, 238, 238, 0.6);
 	margin: 0;
+	background-color: #F5F5F5;
 }
 
 .topbar .btn {
