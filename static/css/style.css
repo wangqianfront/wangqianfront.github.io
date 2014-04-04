@@ -114,7 +114,8 @@ section {
 /* Page header tweaks */
 .page-header {
     border-bottom: 1px solid rgba(238, 238, 238, 0.6);
-	margin: 0;
+	margin: -20px -20px 20px;
+    padding: 20px 20px 10px;
 	background-color: #F5F5F5;
 }
 
