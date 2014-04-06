@@ -1,4 +1,4 @@
-作者author [@wangqianfront](http://wangqianfront.github.com
+作者author [@wangqianfront](http://wangqianfront.github.com)
 ============================
 
 * github trending https://github.com/explore
