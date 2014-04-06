@@ -5,5 +5,5 @@
 * Cheat sheet 手册 http://cheat-sheets.org/saved-copy/
 
 
-#### Reference 
+#### 参考Reference 
 * [jekll中文](http://jekyllcn.com/)
