@@ -1,9 +1,9 @@
-作者author @wangqianfront
+作者author [@wangqianfront](http://wangqianfront.github.com
 ============================
 
-### [主页](http://wangqianfront.github.com)
-
-### [jekll中文简体](http://jekyllcn.com/)
-
-
 * github trending https://github.com/explore
+* Cheat sheet 手册 http://cheat-sheets.org/saved-copy/
+
+
+#### Reference 
+* [jekll中文](http://jekyllcn.com/)
