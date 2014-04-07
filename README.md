@@ -7,3 +7,4 @@
 
 #### 参考Reference 
 * [jekll中文](http://jekyllcn.com/)
+* [kramdown](http://kramdown.gettalong.org/quickref.html)
