@@ -10,6 +10,12 @@ wangqianfront.github.com
 * [kramdown](http://kramdown.gettalong.org/quickref.html)
 
 
+Bug tracker
+=================================
+
+Have a bug? Please create an issue here on GitHub at https://github.com/wangqianfront/wangqianfront.github.com/issues.
+
+
 Author
 ================
 **Wang Qian Front**
