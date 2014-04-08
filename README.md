@@ -21,3 +21,5 @@ Author
 **Wang Qian Front**
 *    http://twitter.com/wangqianfront
 *    http://github.com/wangqianfront
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wangqianfront/wangqianfront.github.com/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
