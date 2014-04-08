@@ -1,4 +1,4 @@
-作者author [@wangqianfront](http://wangqianfront.github.com)
+wangqianfront.github.com
 ============================
 
 * github trending https://github.com/explore
@@ -8,3 +8,9 @@
 #### 参考Reference 
 * [jekll中文](http://jekyllcn.com/)
 * [kramdown](http://kramdown.gettalong.org/quickref.html)
+
+
+#### Author
+** Wang Qian Front **
+*    http://twitter.com/wangqianfront
+*    http://github.com/wangqianfront
