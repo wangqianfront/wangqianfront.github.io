@@ -10,7 +10,8 @@ wangqianfront.github.com
 * [kramdown](http://kramdown.gettalong.org/quickref.html)
 
 
-#### Author
-** Wang Qian Front **
+Author
+================
+**Wang Qian Front**
 *    http://twitter.com/wangqianfront
 *    http://github.com/wangqianfront
