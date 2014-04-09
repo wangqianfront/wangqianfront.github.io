@@ -7,7 +7,11 @@ tagline:
 tags : [github]
 ---
 {% include JB/setup %}
+
+
 #### 如果你想贡献某个项目，我们知道在github里有个'folking'。在这篇文章里，我们以托管在GitHub.com上___Spoon-Knife___项目为例。
+
+
 
 1. **第一步: Fork the `Spoon-Knife` repository**
 
