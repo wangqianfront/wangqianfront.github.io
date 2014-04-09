@@ -8,6 +8,7 @@ wangqianfront.github.com
 #### 参考Reference 
 * [jekll中文](http://jekyllcn.com/)
 * [kramdown](http://kramdown.gettalong.org/quickref.html)
+* [github guides](https://guides.github.com/)
 
 
 Bug tracker
