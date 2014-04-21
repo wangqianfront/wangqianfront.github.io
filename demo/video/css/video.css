@@ -1,0 +1,93 @@
+.session_download {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.download_title{
+	color: #ff9900;
+	font-weight:bold;
+	font-size: 12px;
+	text-decoration: none
+}
+.download_topic {
+	color: #000000;
+	font-size: 12px;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+
+.download_topic a {
+	color: #000000;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.download_topic a:hover {
+	color: #ff9900;
+	text-decoration: underline;
+
+}
+
+.download_typesize {
+	color: #000000;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+body {
+	margin: 0px;
+}
+
+#bg {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	filter: Alpha(opacity =     50);
+	opacity: 0.5;
+	background: #000000;
+	display: none;
+}
+
+.popbox {
+	position: absolute;
+	width: 738px;
+	height: 436px;
+	left: 40%;
+	top: 30%;
+	margin: -200px 0 0 -200px;
+	display: none;
+	background: #ffffff;
+	border-color: #717171;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.videobox {
+	position: absolute;
+	left: 18px;
+	top: 20px;
+	width: 705px;
+	height: 405px;
+	filter: ALPHA(opacity =     60);
+	z-index: 1;
+}
+
+.videobox a{
+	display: block; 
+	width: 700px; 
+	height: 400px; 
+}
+
+.close_video {
+	height: 15px;
+}
+
+.close_video img {
+	cursor: pointer; 
+	z-index =2; 
+	position: absolute; 
+	top: -10px; 
+	left: 726px;
+}
