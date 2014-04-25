@@ -14,14 +14,13 @@ tagline: Thomas Carlyle
   {% endfor %}
 </ul>
 
-## Popular repositories
-<ol id="pages">
-   <li><a href="https://github.com/wangqianfront/InkSmell-Framework" target="_blank">https://github.com/wangqianfront/InkSmell-Framework</a>     InkSmell-Framework</li>
-</ol>
+## About Me
 
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+```javascript
+  who = 一名本应该在写前端的但不知怎的一直在写后端的马脓 -> 
+  @echo 'github: https://github.com/wangqianfront'
+  @echo 'weibo: http://weibo.com/qain1989'
+  @echo 'email: 407278091@qq.com'
+  @echo 'ps: nodejs学习中。。。。。。' 
+  @send()
+```
