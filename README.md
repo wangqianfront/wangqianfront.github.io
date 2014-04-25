@@ -6,9 +6,10 @@ Web engineer with two years experience using Java and JavaScript. Then start use
 
 Social Relationship
 ================
-* [twitter](http://twitter.com/wangqianfront)
+* [Twitter](http://twitter.com/wangqianfront)
+* [Facebook](http://facebook.com/wangqianfront)
 * [LinkedIn](http://www.linkedin.com/in/wangqianfront)
-* [github](http://github.com/wangqianfront)
+* [Github](http://github.com/wangqianfront)
 * [Sina Weibo](http://weibo.com/qain1989)
 * [NPM](https://www.npmjs.org/~wangqianfront)
 * [wangqianfront@gmail.com](mailto:wangqianfront@gmail.com)
