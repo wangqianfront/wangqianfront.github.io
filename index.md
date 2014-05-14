@@ -16,6 +16,7 @@ tagline: Thomas Carlyle
 
 ## About Me
 
+
 ```javascript
   who = 一名本应该在写前端的但不知怎的一直在写后端的马脓 -> 
   @echo 'github: https://github.com/wangqianfront'
@@ -24,3 +25,22 @@ tagline: Thomas Carlyle
   @echo 'ps: nodejs学习中。。。。。。' 
   @send()
 ```
+
+### 社交
+
+* [Twitter](http://twitter.com/wangqianfront)
+* [Facebook](http://facebook.com/wangqianfront)
+* [LinkedIn](http://www.linkedin.com/in/wangqianfront)
+* [Github](http://github.com/wangqianfront)
+* [Sina Weibo](http://weibo.com/qain1989)
+* [NPM](https://www.npmjs.org/~wangqianfront)
+* [wangqianfront@gmail.com](mailto:wangqianfront@gmail.com)
+
+
+### 本博客参考
+
+* [jekll中文](http://jekyllcn.com/)
+* [kramdown](http://kramdown.gettalong.org/quickref.html)
+* [github guides](https://guides.github.com/)
+
+
