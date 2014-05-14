@@ -1,6 +1,4 @@
-Notice:
-------
-New Posts moved to [issues](https://github.com/wangqianfront/wangqianfront.github.com/issues.)
+**Notice:** New Posts has moved to [issues](https://github.com/wangqianfront/wangqianfront.github.com/issues.)
 
 
 Social Relationship
