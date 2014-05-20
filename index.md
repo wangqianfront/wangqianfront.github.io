@@ -14,7 +14,7 @@ tagline: Thomas Carlyle
   {% endfor %}
 </ul>
 
-## About Me
+### [About Me](http://wangqianfront.github.io/pages/about/index.html)
 
 
 ```javascript
@@ -26,21 +26,10 @@ tagline: Thomas Carlyle
   @send()
 ```
 
-### 社交
+##### 注：本博客参考
 
-* [Twitter](http://twitter.com/wangqianfront)
-* [Facebook](http://facebook.com/wangqianfront)
-* [LinkedIn](http://www.linkedin.com/in/wangqianfront)
-* [Github](http://github.com/wangqianfront)
-* [Sina Weibo](http://weibo.com/qain1989)
-* [NPM](https://www.npmjs.org/~wangqianfront)
-* [wangqianfront@gmail.com](mailto:wangqianfront@gmail.com)
-
-
-### 本博客参考
-
-* [jekll中文](http://jekyllcn.com/)
-* [kramdown](http://kramdown.gettalong.org/quickref.html)
-* [github guides](https://guides.github.com/)
+1. [jekll中文](http://jekyllcn.com/)
+2. [kramdown](http://kramdown.gettalong.org/quickref.html)
+3. [github guides](https://guides.github.com/)
 
 
