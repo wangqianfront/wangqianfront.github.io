@@ -26,7 +26,8 @@ tagline: Thomas Carlyle
   @send()
 ```
 
-##### 注：本博客参考
+
+#### 本站设计参考
 
 1. [jekll中文](http://jekyllcn.com/)
 2. [kramdown](http://kramdown.gettalong.org/quickref.html)
